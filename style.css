@@ -128,7 +128,9 @@ a {
 	margin: 0 auto;
 	margin-top: 0px;
 }
-
+.marker1, .marker2,.marker3,.marker4,.marker5,.marker6 {
+	margin-left: 10px;
+}
 
 
 
@@ -158,6 +160,11 @@ a {
 .announcements .col-md-9 {
 	color: #777777;
 }
+.arrows {
+	height: 37px;
+    padding-top: 6px;
+    padding-left: 22px;
+}
 
 
 #tasktext a:first-child:link, #tasktext a:first-child:visited, #tasktext a:first-child:hover, #tasktext a:first-child:active  { /*task numbers always stay white*/
@@ -173,6 +180,7 @@ a {
 	background-image: url('img/icon_eclipse_active.png');
 	background-repeat: no-repeat;
 	background-position: left+8px center;
+	margin-top: 7px;
 }
 .task1, .task2, .task3, .task4 h4 {
 	padding-top: 2px;
@@ -187,7 +195,7 @@ a {
 	max-width: 65px;
 	float:right;
 	margin-top: 8px;
-	margin-right: 4px;
+	margin-right: 10px;
 }
 #taskcount h5 {
 	margin-left: 22px;
@@ -198,7 +206,9 @@ a {
 }
 
 
-
+.recommendations {
+	margin-top: 25px;
+}
 .recommendations p {
 	font-size: 10px;
 	line-height: 5%;
@@ -211,30 +221,36 @@ a {
 .recommendations .row {
 	margin-left: -3px;
 	padding-left: 36px;
-	margin-top: 10px;
 	margin-bottom: 25px;
 	padding-top: 7px;
 }
 
 .rec1 {
-	background-image: url('img/icon_article.png');
-	background-repeat: no-repeat;
-	background-position: top left;
+	background-image: url('img/icon_article.png'), url('img/spacer4.png');
+	background-repeat: no-repeat, no-repeat;
+	background-position: top left, bottom left;
+	padding-bottom: 7px;
 }
 .rec2 {
-	background-image: url('img/icon_article.png');
+	background-image: url('img/icon_article.png'), url('img/spacer4.png');
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: top left, bottom left;
+	padding-bottom: 7px;
+	margin-top: -5px;
 }
 .rec3 {
-	background-image: url('img/icon_checklist.png');
+	background-image: url('img/icon_checklist.png'), url('img/spacer4.png');
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: top left, bottom left;
+	padding-bottom: 7px;
+	margin-top: -5px;
 }
 .rec4 {
-	background-image: url('img/icon_tip.png');
+	background-image: url('img/icon_tip.png'), url('img/spacer4.png');
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: top left, bottom left;
+	padding-bottom: 7px;
+	margin-top: -5px;
 }
 
 
@@ -242,9 +258,14 @@ a {
 
 
 .graph1 {
+	background-image: url('img/spacer5.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
 	position: relative;
-	margin-top: -60px;
+	padding-top: 50px;
+	margin-top: -125px;
 	margin-left: 35px;
+	margin-right: -13px;
 }
 
 .checkboxes {
@@ -266,7 +287,13 @@ a {
 
 
 .cnc {
-	margin-top: 70px;
+	margin-top: 40px;
+	margin-left: -30px;
+    padding-top: 40px;
+    width: 779px;
+    padding-bottom: 10px;
+    border-left: 0 !important;
+    border-right: 0 !important;
 }
 .contacts, .customers {
 	width: 205px;
@@ -275,12 +302,12 @@ a {
 
 .ribbon1 {
 	position: absolute;
-	left: 30px;
+	left: 70px;
 	top: 52px;
 }
 .contacts {
 	position: relative;
-	left: 30px;
+	left: 70px;
 }
 .contactPerson {
 	position: relative;
@@ -316,7 +343,7 @@ a {
 
 .ribbon2 {
 	position: absolute;
-	left: 250px;
+	left: 290px;
 	top: 52px;
 }
 
@@ -326,9 +353,106 @@ a {
 
 
 
+.dyk {
+	margin-top: 23px;
+	height: 140px;
+	width: 720px;
+	background-color: #2498f4;
+	border: 0px !important;
+}
+
+.back {
+	padding-top: 40px;
+	margin-left: -16px;
+}
+.text {
+	margin: auto;
+	margin-left: 30px;
+	margin-top: 35px;
+}
+.text p {
+	color: #fff !important;
+}
+.next {
+	position: relative;
+	float: right;
+	padding-top: 42px;
+	margin-right: -23px;
+}
 
 
 
+
+.ads {
+	background-color: #2498f4;
+	margin-bottom: 40px;
+}
+
+.ad1, .ad2, .ad3 {
+	height: 160px;
+	width: 280px;
+	border: 0px !important;
+	margin-right: 90px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ad1 {
+	margin-left: 70px;
+}
+.ad3 {
+	margin-right: 0px;
+}
+.ad1 img {
+	position: absolute;
+	left: 0;
+}
+.ad2 img {
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+}
+.ad3 img {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.ad1 .text1 p {
+	position: absolute;
+	text-align: right;
+	font-size: 20px !important;
+	color: #33cc66 !important;
+	line-height: 98%;
+	z-index: 100;
+	right: 20px;
+	top: 45px;
+}
+.ad1 .text2 p {
+	position: absolute;
+	text-align: right;
+	font-size: 14px !important;
+	color: #b2b2b2 !important;
+	z-index: 100;
+	right: 20px;
+	top: 88px;
+}
+
+.ad2 .text1 p {
+	position: absolute;
+	font-size: 14px !important;
+	color: #fff !important;
+	z-index: 100;
+	left: 40px;
+	top: 70px;
+}
+
+.ad3 .text1 p {
+	position: absolute;
+	font-size: 20px !important;
+	color: #fe7f13 !important;
+	z-index: 100;
+	left: 18px;
+	top: 40px;
+}
 
 
 
@@ -338,8 +462,8 @@ a {
 	background-repeat: repeat-x;
 	height: 60px;
 	width: 100%;
-	position: absolute;
-  	bottom: 0;
+	position: relative;
+  	bottom: 0px;
 }
 
 .statusbar a:link, .statusbar a:visited {
@@ -441,6 +565,38 @@ a {
 	margin-top: 10px;
 }
 /*------------------------------------------------*/
+.announcement {
+	border-left: 0 !important;
+	border-right: 0 !important;
+}
+.taskrow2, .taskrow4 {
+	border-left: 0 !important;
+	border-right: 0 !important;
+}
+.side {
+	height: 901px;
+	border-top: 0 !important;
+	border-bottom: 0 !important;
+}
+.checkboxes .large {
+	position: relative;
+	margin-top: 30px;
+}
+.checkboxes {
+	float: right;
+    margin-right: -60px;
+}
+.panel {
+	border: 1px solid #d9d9d9;
+}
+
+.main {
+	height: 901px;
+	padding-left: 30px;
+	border-top: 0 !important;
+	border-left: 0 !important;
+	border-bottom: 0 !important;
+}
 
 .btn-primary {
     color: #777777;
@@ -452,6 +608,11 @@ a {
 	color: #fe7f13;
 }
 
+.border {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d9;
+}
 
 /*
 .test {
