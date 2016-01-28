@@ -55,9 +55,192 @@ a {
 	text-decoration: none !important;
 }
 
+@media(min-width:0px){
+	.user, .config {
+		display: none;
+	}
+	.icons, .navcontainer, .menubar, .bar1, .bar2 {
+		display: none;
+	}
+	.dashboard {
+		padding-bottom: 135px;
+	}
+	.arrows {
+		padding-left: 13px !important;
+	}
+	.announcement {
+		border-left: 1px;
+		border-right: 1px;
+	}
+	.recommendations h5 {
+    	line-height: 100% !important;
+	}
+	.graph1 {
+		display: none;
+	}
+	.graph2ccontainer {
+		margin-top: 0px;
+		padding-top: 50px;
+	}
+	.graph2rcontainer {
+		padding-top: 70px;
+	}
+	.graph2rTitle, .graph2cTitle {
+		margin-left: 150px;
+		float: left;
+		position: absolute;
+	}
+	.cnc {
+		margin-top: 100px !important;
+    	padding-top: 60px !important;
+    	border-top: 0px!important;
+	}
+	.checkboxes {
+    	margin-right: 0px !important;
+    	padding-left: 0px !important;
+	}
+	.dyk {
+		margin-top: 35px;
+	}
+	.ads {
+		margin-top: 100px;
+	}
+	.ad1 {
+    	margin-left: 0px !important;
+	}
+	.ad1, .ad2, .ad3 {
+		margin: auto !important;
+	}
+	.next {
+		margin-right: -15px !important;
+	}
+	.ribbon1, .ribbon2 {
+		display: none;
+	}
+	.main {
+		padding-left: 15px !important;
+		border-top: solid !important;
+		border-width: 1px !important;
+		border-color:#d9d9d9 !important;
+	}
+	.contacts, .customers {
+		margin: auto;
+		left: 0px;
+	}
+	.statusbar2, .statusbar3, .statusbar4, .statusbar5 {
+		display: none;
+	}
+}
+
+@media(min-width:550px) {
+	.graph1 {
+		display: block;
+		margin-top: -540px;
+		background-image: none !important;
+	}
+	.graph2ccontainer {
+		margin-top: 400px;
+	}
+}
+
+@media(min-width:1000px){
+	.icons, .navcontainer, .menubar, .bar1, .bar2 {
+		display: block;
+	}
+	.dashboard {
+		padding-bottom: 0px;
+	}
+	.announcement {
+		border-left: 0px !important;
+		border-right: 0px !important;
+	}
+	.recommendations h5 {
+    	line-height: 50% !important;
+	}
+	.next {
+		margin-right: -39px !important;
+	}
+}
+@media(min-width:1200px){
+	.user, .config {
+		display: block;
+	}
+	.arrows {
+		padding-left: 22px !important;
+	}
+	.graph1 {
+		margin-top: -125px;
+		background-image: url('img/spacer5.png') !important;
+	}
+	.graph2ccontainer {
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.graph2rcontainer {
+		padding-top: 0px;
+	}
+	.graph2rTitle, .graph2cTitle {
+		margin-left: -15px;
+		float: none;
+		position: relative;
+	}
+	.cnc {
+		border-top: solid !important;
+		border-width: 1px !important;
+		border-color:#d9d9d9 !important;
+		margin-top: 40px !important;
+    	padding-top: 40px !important;
+	}
+	.checkboxes {
+    	margin-right: -60px !important;
+    	padding-left: 150px !important;
+	}
+	.dyk {
+		margin-top: 23px;
+	}
+	.ad1 {
+    	margin-left: 70px !important;
+	}
+	.ad1, .ad2 {
+		margin-right: 90px !important;
+    	margin-top: 30px !important;
+    	margin-bottom: 30px !important;
+	}
+	
+	.ad3 {
+		margin-top: 30px !important;
+    	margin-bottom: 30px !important;
+	}
+	.next {
+		margin-right: -22px !important;
+	}
+	.ads {
+		margin-top: 0px;
+	}
+	.ribbon1, .ribbon2 {
+		display: block;
+	}
+	.main {
+		padding-left: 30px !important;
+		border-top: 0px!important;
+	}
+	.contacts, .customers {
+		margin: 0px;
+		left: 1px;
+	}
+	.contacts {
+		left: 70px;
+	}
+	.statusbar2, .statusbar3, .statusbar4, .statusbar5 {
+		display: block;
+	}
+}
+
+
+
+
 .topnav {
 	background-image: url('img/menubar_tile.png');
-	background-color: red;
 	background-size: auto;
 	height: 40px;
 }
@@ -206,6 +389,10 @@ a {
 }
 
 
+/*
+.recommendations h5:hover, .recommendations h5:active, .recommendations p:hover, .recommendations p:active {
+	color: red !important;
+}*/
 .recommendations {
 	margin-top: 25px;
 }
@@ -263,14 +450,13 @@ a {
 	background-position: bottom right;
 	position: relative;
 	padding-top: 50px;
-	margin-top: -125px;
 	margin-left: 35px;
 	margin-right: -13px;
 }
 
 .checkboxes {
 	margin-top: 30px;
-	padding-left: 170px;
+	padding-left: 150px;
 }
 
 
@@ -290,10 +476,10 @@ a {
 	margin-top: 40px;
 	margin-left: -30px;
     padding-top: 40px;
-    width: 779px;
     padding-bottom: 10px;
     border-left: 0 !important;
     border-right: 0 !important;
+    width: 106%;
 }
 .contacts, .customers {
 	width: 205px;
@@ -307,7 +493,6 @@ a {
 }
 .contacts {
 	position: relative;
-	left: 70px;
 }
 .contactPerson {
 	position: relative;
@@ -353,12 +538,17 @@ a {
 
 
 
+.dykcontainer {
+	width: 100%;
+	margin-left: 9px;
+}
 .dyk {
 	margin-top: 23px;
-	height: 140px;
-	width: 720px;
+	width: 100%;
 	background-color: #2498f4;
 	border: 0px !important;
+	height: 100%;
+    padding-bottom: 45px;
 }
 
 .back {
@@ -517,7 +707,7 @@ a {
 
 .statusbar3 img {
 	float: right;
-	padding-top:30 px;
+	padding-top: 30px;
 }
 .statusbar3 {
 	margin-top: 11px;
@@ -566,8 +756,8 @@ a {
 }
 /*------------------------------------------------*/
 .announcement {
-	border-left: 0 !important;
-	border-right: 0 !important;
+	border-left: 0;
+	border-right: 0;
 }
 .taskrow2, .taskrow4 {
 	border-left: 0 !important;
@@ -577,10 +767,6 @@ a {
 	height: 901px;
 	border-top: 0 !important;
 	border-bottom: 0 !important;
-}
-.checkboxes .large {
-	position: relative;
-	margin-top: 30px;
 }
 .checkboxes {
 	float: right;
@@ -593,9 +779,12 @@ a {
 .main {
 	height: 901px;
 	padding-left: 30px;
-	border-top: 0 !important;
-	border-left: 0 !important;
+	border-left: 0;
 	border-bottom: 0 !important;
+}
+
+.btn-group {
+	z-index: 100;
 }
 
 .btn-primary {
@@ -612,6 +801,40 @@ a {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #d9d9d9;
+}
+
+
+/* http://blogs.adobe.com/dreamweaver/2015/08/css-vs-svg-styling-checkboxes-and-radio-buttons.html*/
+
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+  cursor: pointer;
+  color: #555;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:22px;
+    height:21px;
+    margin:-1px 4px 0 0;
+    padding-left: 1em;
+    vertical-align:middle;
+    background:url(img/cb.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    display:inline-block;
+    width:22px;
+    height:21px;
+    margin:-1px 4px 0 0;
+     padding-left: 1em;
+    vertical-align:middle;
+    background:url(img/cbchecked.png) left top no-repeat;
 }
 
 /*
