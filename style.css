@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'proxima_nova';
+    src: url('font/proximanova-bold-webfont.eot');
+    src: url('font/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/proximanova-bold-webfont.woff2') format('woff2'),
+         url('font/proximanova-bold-webfont.woff') format('woff'),
+         url('font/proximanova-bold-webfont.ttf') format('truetype'),
+         url('font/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova';
+    src: url('proximanova-regular-webfont.eot');
+    src: url('proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-regular-webfont.woff2') format('woff2'),
+         url('proximanova-regular-webfont.woff') format('woff'),
+         url('proximanova-regular-webfont.ttf') format('truetype'),
+         url('proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: bold;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+h1 {
+	font-size: 36px;
+	color: white;
+}
+h2 {
+	font-size: 32px;
+	color: #2498f4;
+}
+h3 {
+	font-size: 24px;
+	color: white;
+}
+h4 {
+	font-size: 21px;
+	color: #2498f4;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+}
+p {
+	font-size: 13px;
+	color: #999999;
+}
+a {
+	text-decoration: none !important;
+}
+
+.topnav {
+	background-image: url('img/menubar_tile.png');
+	background-color: red;
+	background-size: auto;
+	height: 40px;
+}
+
+.logo {
+	margin-top: -12px;
+	color: white;
+	font-weight: thin;
+}
+.topnav a:link, .topnav a:visited {
+	color: #fff !important;
+}
+.topnav a:hover, .topnav a:active {
+	color: #edf4f8 !important;
+}
+
+.user {
+	padding-left: 85px;
+	margin-top: 12px;
+	font-family: "proxima-nova", sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	cursor: default;
+}
+
+.config {
+	margin-top: 2px;
+	padding-left: 10px;
+	cursor: default;
+}
+
+.config img {
+	margin: 2px;
+}
+
+.bar1 {
+	background-color: #208ce3;
+	background-size: auto;
+	height: 1px;
+	margin-top: 0px;
+}
+.bar2 {
+	background-color: #124169;
+	background-size: auto;
+	height: 1px;
+}
+
+.menubar {
+	background-image: url('img/menubar_tile2.png');
+	background-size: cover;
+	background-position: top left;
+	background-repeat: repeat-x;
+	height: 110px;
+	margin: 0 auto;
+}
+.menubar .container {
+	background-image: url('img/fade_left.png'), url('img/fade_right.png'), url('img/bitmap.png'), url('img/patternfill.png');
+	background-position: top left, top right, center bottom, top left;
+	background-repeat: repeat-y, repeat-y, no-repeat, repeat-x;
+	height: 110px;
+}
+.menubar .icons {
+	margin: 0 auto;
+	margin-top: 21px;
+}
+.menubar .shadows {
+	margin: 0 auto;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+.dashboard {
+	background-color: #33cc66;
+	height: 75px;
+	margin-top: 15px;
+}
+.content {
+	width: auto;
+	margin: 0 auto;
+}
+.content a:link, .content a:visited {
+	color: #2498f4;
+}
+.content a:hover, .content a:active {
+	color: #cccccc;
+}
+
+.announcements .col-md-2 {
+	color: #fe7f13;
+}
+.announcements .col-md-9 {
+	color: #777777;
+}
+
+
+#tasktext a:first-child:link, #tasktext a:first-child:visited, #tasktext a:first-child:hover, #tasktext a:first-child:active  { /*task numbers always stay white*/
+	color: #fff !important;
+}
+
+.tasks img {
+	float: right;
+	margin-top: 22px;
+}
+
+.task1, .task2, .task3, .task4 {
+	background-image: url('img/icon_eclipse_active.png');
+	background-repeat: no-repeat;
+	background-position: left+8px center;
+}
+.task1, .task2, .task3, .task4 h4 {
+	padding-top: 2px;
+	cursor: default;
+}
+
+#taskcount{
+	background-image: url('img/icon_person_active.png');
+	background-repeat: no-repeat;
+	background-position: left+10px center;
+	max-height: 30px;
+	max-width: 65px;
+	float:right;
+	margin-top: 8px;
+	margin-right: 4px;
+}
+#taskcount h5 {
+	margin-left: 22px;
+	margin-top: 8px;
+}
+.centerthis h5{
+	margin-left: 26px !important;
+}
+
+
+
+.recommendations p {
+	font-size: 10px;
+	line-height: 5%;
+	color: #777777;
+}
+.recommendations h5 {
+	line-height: 50%;
+	color: #777777;
+}
+.recommendations .row {
+	margin-left: -3px;
+	padding-left: 36px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding-top: 7px;
+}
+
+.rec1 {
+	background-image: url('img/icon_article.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.rec2 {
+	background-image: url('img/icon_article.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.rec3 {
+	background-image: url('img/icon_checklist.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.rec4 {
+	background-image: url('img/icon_tip.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+
+
+
+
+.graph1 {
+	position: relative;
+	margin-top: -60px;
+	margin-left: 35px;
+}
+
+.checkboxes {
+	margin-top: 30px;
+	padding-left: 170px;
+}
+
+
+.graph2cTitle, .graph2rTitle {
+	text-align: center;
+}
+.graph2c, .graph2r {
+	margin-left: 41px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+.cnc {
+	margin-top: 70px;
+}
+.contacts, .customers {
+	width: 205px;
+	height: 205px;
+}
+
+.ribbon1 {
+	position: absolute;
+	left: 30px;
+	top: 52px;
+}
+.contacts {
+	position: relative;
+	left: 30px;
+}
+.contactPerson {
+	position: relative;
+	margin-top: -20px;	
+	margin-left: 63px;
+	z-index: 0;
+}
+.contactRibbon {
+	background-color: #2394ee;
+	margin-top: 0px;
+	margin-left: -1px;
+	height: 50px;
+	width: 205px;
+	z-index: 100;
+}
+.contactRibbon h4 {
+	color: #fff;
+	margin: auto;
+	margin-top: 7px;
+	text-align: center;
+}
+.contactRibbon p {
+	color: #fff;
+	margin: auto;
+	font-size: 11px;
+	text-align: center;
+}
+.contactGraph {
+	width: 192px;
+	margin-left: 5px;
+	margin-top: 11px;
+}
+
+.ribbon2 {
+	position: absolute;
+	left: 250px;
+	top: 52px;
+}
+
+.customers {
+	left: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+.statusbar {
+	background-image: url('img/statusbar_tile.png');
+	background-repeat: repeat-x;
+	height: 60px;
+	width: 100%;
+	position: absolute;
+  	bottom: 0;
+}
+
+.statusbar a:link, .statusbar a:visited {
+	color: #999999;
+}
+.statusbar a:hover, .statusbar a:active {
+	color: #777777;
+}
+
+.statusbar b {
+	color: #2498f2;
+}
+
+.statusbar b:hover {
+	color: #228fe3;
+}
+
+.statusbar .container .row {
+	padding-top: 21px;
+}
+
+.statusbar .container .row p {
+  	font-family: "proxima-nova", sans-serif;
+	font-weight: normal;
+	font-size: 14px;	
+	color: #777777;
+}
+
+.statusbar .container .row img {
+	margin: 2px;
+}
+
+.statusbar2 {
+	background-image: url('img/spacer3.png');
+	background-repeat: no-repeat;
+	background-position: 20px;
+	height: 51px;
+}
+.statusbar4 {
+	background-image: url('img/spacer3.png');
+	background-repeat: no-repeat;
+	background-position: 30px;
+	height: 51px;
+}
+.statusbar5 {
+	background-image: url('img/spacer3.png'), url('img/spacer3.png');
+	background-repeat: no-repeat;
+	background-position: right, 25px;
+	height: 51px;
+}
+
+.statusbar3 img {
+	float: right;
+	padding-top:30 px;
+}
+.statusbar3 {
+	margin-top: 11px;
+}
+
+.statusbar2 p {
+	padding-left: 50px;
+}
+
+.statusbar4 p {
+	float:right;
+	padding-right: 10px;
+}
+
+.statusbar5 {
+	padding-left: 65px;
+
+}
+
+.statusbar1, .statusbar2, .statusbar5 {
+	padding-top:10px;
+}
+
+
+/*---------------------search---------------------*/
+.add-on .input-group-btn > .btn {
+	border-left-width:0;left:-2px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(45, 181, 91, 0.075);
+	box-shadow: inset 0 1px 1px rgba(45, 181, 91, 0.075);
+	border-color:#2db55b; 
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+	box-shadow:none;
+	-webkit-box-shadow:none; 
+	border-color:#2db55b; 
+}
+.glyphicon {
+	color: #2498f4;
+}
+.form-control {
+	border-color:#2db55b; 
+}
+.searchbar {
+	margin-top: 10px;
+}
+/*------------------------------------------------*/
+
+.btn-primary {
+    color: #777777;
+    background-color: #fff;
+    border-color: #dddddd;
+}
+
+.caret {
+	color: #fe7f13;
+}
+
+
+/*
+.test {
+	background-color: blue;
+	border-color: red;
+	border: 1px solid;
+}
