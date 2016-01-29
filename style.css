@@ -56,6 +56,9 @@ a {
 }
 
 @media(min-width:0px){
+	body {
+		background-image: none;
+	}
 	.user, .config {
 		display: none;
 	}
@@ -162,6 +165,11 @@ a {
 	}
 }
 @media(min-width:1200px){
+	body {
+		background-image: url('img/shade.png');
+		background-repeat: no-repeat;
+		background-position: center 255px;
+	}
 	.user, .config {
 		display: block;
 	}
@@ -237,7 +245,9 @@ a {
 }
 
 
-
+.white {
+	background-color: #fff;
+}
 
 .topnav {
 	background-image: url('img/menubar_tile.png');
@@ -313,6 +323,10 @@ a {
 }
 .marker1, .marker2,.marker3,.marker4,.marker5,.marker6 {
 	margin-left: 10px;
+	display: none;
+}
+.marker1 {
+	display: block;
 }
 
 
@@ -325,6 +339,7 @@ a {
 	background-color: #33cc66;
 	height: 75px;
 	margin-top: 15px;
+	margin-bottom:30px !important;
 }
 .content {
 	width: auto;

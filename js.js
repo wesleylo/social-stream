@@ -115,4 +115,58 @@ $(document).ready(function() {
     	$(".count4").css("color", "#2498f4");
     	$(".task4 > h4 > a").css("color", "#2498f4");
     })
+    
+    
+    
+    
+    $("#icon1").mouseup(function(){
+    	$(".marker1").css("display", "block");
+    	$(".marker2").css("display", "none");
+    	$(".marker3").css("display", "none");
+    	$(".marker4").css("display", "none");
+    	$(".marker5").css("display", "none");
+    	$(".marker6").css("display", "none");
+    })
+    $("#icon2").mouseup(function(){
+    	$(".marker1").css("display", "none");
+    	$(".marker2").css("display", "block");
+    	$(".marker3").css("display", "none");
+    	$(".marker4").css("display", "none");
+    	$(".marker5").css("display", "none");
+    	$(".marker6").css("display", "none");
+    })
+    $("#icon3").mouseup(function(){
+    	$(".marker1").css("display", "none");
+    	$(".marker2").css("display", "none");
+    	$(".marker3").css("display", "block");
+    	$(".marker4").css("display", "none");
+    	$(".marker5").css("display", "none");
+    	$(".marker6").css("display", "none");
+    })
+    $("#icon4").mouseup(function(){
+    	$(".marker1").css("display", "none");
+    	$(".marker2").css("display", "none");
+    	$(".marker3").css("display", "none");
+    	$(".marker4").css("display", "block");
+    	$(".marker5").css("display", "none");
+    	$(".marker6").css("display", "none");
+    })
+    $("#icon5").mouseup(function(){
+    	$(".marker1").css("display", "none");
+    	$(".marker2").css("display", "none");
+    	$(".marker3").css("display", "none");
+    	$(".marker4").css("display", "none");
+    	$(".marker5").css("display", "block");
+    	$(".marker6").css("display", "none");
+    })
+    $("#icon6").mouseup(function(){
+    	$(".marker1").css("display", "none");
+    	$(".marker2").css("display", "none");
+    	$(".marker3").css("display", "none");
+    	$(".marker4").css("display", "none");
+    	$(".marker5").css("display", "none");
+    	$(".marker6").css("display", "block");
+    })
+    
+    
 })
